@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Protest Riot', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d1b2a;
+}
+.amount{
+    padding-top: 30px;
+    text-align:left;
+}
+.main-container{
+    background-color:#ffd29d;
+    padding:40px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+.dropdown{
+    display: flex;
+    justify-content:space-between;
+    align-items:center ;
+    padding-top: 30px;
+    gap:20px;
+}
+.from{
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+.to{
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+.selectcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.msg{
+    text-align: center;
+    padding: 15px;
+}
+form button{
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+form input,button,select{
+    width: 100%;
+}
+form input{
+    border-style: none;
+    padding:20px 0px 20px 9px;
+    border-radius: 10px;
+}
+form select{
+    border-style: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+@media only screen and (max-width:550px){
+        .main-container{
+            background-color: #ffd29d;
+            padding:40px;
+            margin-top: 10vh;
+            border-radius: 10px;
+            text-align: center;
+        }
+}
+@media only screen and (max-width:410px){
+    .dropdown{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items:center ;
+        padding-top: 30px;
+        gap:20px;
+    }
+    .logo i{
+        transform: rotate(90deg);
+    }
+}
